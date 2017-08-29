@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageButton
+        android:tag="Q3"
+        android:id="@+id/q3_button"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:tag="E4"
+        android:id="@+id/e4_button"
+        android:layout_toRightOf="@+id/q3_button"
+        android:layout_toLeftOf="@+id/q4_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:tag="Q4"
+        android:id="@+id/q4_button"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:tag="E2"
+        android:id="@+id/e2_button"
+        android:layout_below="@+id/q3_button"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:tag="CE"
+        android:id="@+id/centro_button"
+        android:layout_below="@+id/e4_button"
+        android:layout_toRightOf="@+id/e2_button"
+        android:layout_toLeftOf="@+id/e1_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:tag="E1"
+        android:id="@+id/e1_button"
+        android:layout_below="@+id/q4_button"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:tag="Q2"
+        android:id="@+id/q2_button"
+        android:layout_below="@+id/e2_button"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:tag="E3"
+        android:id="@+id/e3_button"
+        android:layout_below="@+id/centro_button"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/q3_button"
+        android:layout_toLeftOf="@+id/q4_button"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:tag="Q1"
+        android:id="@+id/q1_button"
+        android:layout_below="@+id/e1_button"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout_geometria_estacas"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
