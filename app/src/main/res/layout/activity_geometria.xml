@@ -26,7 +26,7 @@
                 android:layout_weight="4.5"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/QUADRANTE"
+                android:src="@drawable/quadrante"
                 android:tag="Q3"/>
 
             <ImageButton
@@ -38,7 +38,7 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/EIXO_Z_NEGATIVO"
+                android:src="@drawable/eixo_z_negativo"
                 android:tag="E4" />
 
             <ImageButton
@@ -50,7 +50,7 @@
                 android:adjustViewBounds="true"
                 android:cropToPadding="false"
                 android:scaleType="centerCrop"
-                android:src="@drawable/QUADRANTE"
+                android:src="@drawable/quadrante"
                 android:tag="Q4" />
 
         </LinearLayout>
@@ -68,7 +68,7 @@
                 android:layout_weight="4.5"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/EIXO_Y_NEGATIVO"
+                android:src="@drawable/eixo_y_negativo"
                 android:tag="E2" />
 
             <ImageButton
@@ -81,7 +81,7 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/CENTRO"
+                android:src="@drawable/centro"
                 android:tag="CE" />
 
             <ImageButton
@@ -93,7 +93,7 @@
                 android:layout_weight="4.5"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/EIXO_Y_POSITIVO"
+                android:src="@drawable/eixo_y_positivo"
                 android:tag="E1" />
 
         </LinearLayout>
@@ -111,7 +111,7 @@
                 android:layout_weight="4.5"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/QUADRANTE"
+                android:src="@drawable/quadrante"
                 android:tag="Q2"/>
 
             <ImageButton
@@ -124,7 +124,7 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/EIXO_Z_POSITIVO"
+                android:src="@drawable/eixo_z_positivo"
                 android:tag="E3"/>
 
             <ImageButton
@@ -136,7 +136,7 @@
                 android:layout_weight="4.5"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/QUADRANTE"
+                android:src="@drawable/quadrante"
                 android:tag="Q1"/>
 
         </LinearLayout>
