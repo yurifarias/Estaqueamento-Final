@@ -9,8 +9,16 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity {
+
+    double esforcoFx;
+    double esforcoFy;
+    double esforcoFz;
+    double esforcoFa;
+    double esforcoFb;
+    double esforcoFc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +31,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onResume() {
         super.onResume();
-        findViewById(R.id.geometria_button).setOnClickListener(this);
+
+        Button esforcosButton = (Button) findViewById(R.id.esforcos_button);
+        esforcosButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentAbrirEsforcosActivity = new Intent(MainActivity.this, EsforcosActivity.class);
+                startActivity(intentAbrirEsforcosActivity);
+            }
+        });
+
+        Button geometriaButton = (Button) findViewById(R.id.geometria_button);
+        geometriaButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentAbrirGeometriaActivity = new Intent(MainActivity.this, GeometriaActivity.class);
+                startActivity(intentAbrirGeometriaActivity);
+            }
+        });
+
     }
 
     @Override
@@ -48,14 +74,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return super.onOptionsItemSelected(item);
     }
 
-
-    @Override
-    public void onClick(View view) {
-        if (view.getId() == R.id.geometria_button) {
-
-            Intent intent = new Intent(this,GeometriaActivity.class);
-            startActivity(intent);
-
-        } else if (true) {}
-    }
 }

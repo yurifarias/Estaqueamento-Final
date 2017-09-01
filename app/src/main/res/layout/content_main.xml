@@ -10,15 +10,20 @@
     tools:showIn="@layout/activity_main">
 
     <Button
-        android:id="@+id/geometria_button"
-        android:text="Geometria das estacas"
+        android:id="@+id/caracteristicas_button"
+        android:text="Características das estacas"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="abrirGeometriaActivity"/>
+        android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/esforcos_button"
         android:text="Esforços"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/geometria_button"
+        android:text="Geometria das estacas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
